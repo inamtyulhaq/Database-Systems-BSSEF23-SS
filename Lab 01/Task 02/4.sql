@@ -1,0 +1,7 @@
+SELECT * FROM EMP
+WHERE SAL+(SAL*0.2) > 4000;
+
+-- another version
+
+SELECT * FROM EMP
+WHERE SAL*1.2 > 4000;
