@@ -1,0 +1,6 @@
+SELECT * FROM EMP
+WHERE JOB <> 'MANAGER';
+
+-- another version
+SELECT * FROM EMP
+WHERE JOB != 'MANAGER';

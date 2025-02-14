@@ -1,0 +1,6 @@
+SELECT * FROM SALGRADE
+WHERE GRADE <> 3;
+
+-- another version
+SELECT * FROM SALGRADE
+WHERE GRADE != 3;

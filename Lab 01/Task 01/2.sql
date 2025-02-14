@@ -1,0 +1,4 @@
+SELECT * FROM PUCIT, EMP;
+
+-- another version
+SELECT * FROM PUCIT NATURAL JOIN EMP;

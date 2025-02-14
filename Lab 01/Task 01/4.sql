@@ -1,0 +1,6 @@
+SELECT * FROM DEPT
+WHERE DEPTNO <> 10;
+
+-- another version
+SELECT * FROM DEPT
+WHERE DEPTNO != 10;

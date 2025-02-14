@@ -1,0 +1,2 @@
+SELECT * FROM PUCIT
+WHERE STD_NAME = 'Adam Smith';
